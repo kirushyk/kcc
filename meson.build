@@ -1,9 +1,10 @@
-# Copyright (c) 2019 Kyrylo Polezhaiev.
+# Copyright (c) Kyrylo Polezhaiev and contributors. All rights reserved.
+# Released under the MIT license. See LICENSE file in the project root for full license information.
   
 project('kcc', 'c',
     version : '0.1',
     license : 'MIT',
-    meson_version : '>= 0.37.1',
+    meson_version : '>= 0.49.1',
     default_options : [
         'warning_level=1',
         'buildtype=debug',
@@ -12,3 +13,4 @@ project('kcc', 'c',
 )
 
 subdir('src')
+subdir('tests')

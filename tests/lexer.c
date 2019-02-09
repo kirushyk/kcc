@@ -1,0 +1,6 @@
+#include <src/lexer.h>
+
+int main()
+{
+    return 0;
+}
