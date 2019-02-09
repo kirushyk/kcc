@@ -6,4 +6,9 @@ typedef struct List {
     void *data;
 } List;
 
+List * list_prepend  (List *list,
+                      void *data);
+
+void   list_free_all (List *list);
+
 #endif
