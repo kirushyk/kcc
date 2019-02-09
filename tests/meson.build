@@ -2,6 +2,7 @@
 # Released under the MIT license. See LICENSE file in the project root for full license information.
 
 tests = [
+    ['list.c'],
     ['lexer.c']
 ]
 
